@@ -274,9 +274,10 @@ public class SweetAlertDialog extends Dialog implements View.OnClickListener {
     *
     * */
 
-    public void hideButtons(){
+    public SweetAlertDialog hideButtons(){
         mNeutralButton.setVisibility(View.GONE);
         mConfirmButton.setVisibility(View.GONE);
+        return this;
     }
 
     public String getTitleText() {
