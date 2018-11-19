@@ -270,6 +270,14 @@ public class SweetAlertDialog extends Dialog implements View.OnClickListener {
         changeAlertType(alertType, false);
     }
 
+    /* SCRATCGMYTAIL CODE
+    *
+    * */
+
+    public void hideButtons(){
+        mNeutralButton.setVisibility(View.GONE);
+        mConfirmButton.setVisibility(View.GONE);
+    }
 
     public String getTitleText() {
         return mTitleText;
